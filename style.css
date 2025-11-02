@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+.start-screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 28px;
+}
+
+.pusk {
+  font-size: 44px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.user {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.columns {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+  max-width: 1200px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-content: flex-start;
+}
+
+.tile {
+  background: #999;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: block;
+  min-width: 120px;
+  height: 84px; 
+  flex: 0 0 84px;
+}
+
+.tile.large {
+  flex: 0 0 176px;
+  min-width: 176px;
+  height: 352px; 
+}
+
+.tile.wide {
+  flex: 0 0 360px;
+  min-width: 200px;
+  height: 180px; 
+}
+
+.tile.double {
+  flex: 0 0 176px;
+  min-width: 176px;
+  height: 176px;
+}
+
+.purple .tile { background: purple; }
+.green .tile { background: green; }
+.yellow .tile { background: yellow;}
