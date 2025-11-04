@@ -56,27 +56,24 @@ html, body {
   box-sizing: border-box;
   border-radius: 4px;
   display: block;
-  min-width: 120px;
-  height: 84px; 
+  min-width: 130px;
+  height: 90px; 
   flex: 0 0 84px;
 }
 
+.tile.double {
+  flex-basis: 176px;    
+  height: 84px;
+}
+
 .tile.large {
-  flex: 0 0 176px;
-  min-width: 176px;
-  height: 352px; 
+  flex-basis: 84px;
+  height: 176px;         
 }
 
 .tile.wide {
-  flex: 0 0 360px;
-  min-width: 200px;
-  height: 180px; 
-}
-
-.tile.double {
-  flex: 0 0 176px;
-  min-width: 176px;
-  height: 176px;
+  flex-basis: 300px;
+  height: 200px;
 }
 
 .purple .tile { background: purple; }
